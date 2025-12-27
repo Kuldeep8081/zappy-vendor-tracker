@@ -47,7 +47,7 @@ const Setup = () => {
       formData.append("note", note);
 
       await axios.post(
-        "http://localhost:5000/api/events/upload-setup",
+        "https://zappy-vendor-tracker.onrender.com/api/events/upload-setup",
         formData,
         {
           headers: {

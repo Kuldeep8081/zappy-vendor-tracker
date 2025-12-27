@@ -39,7 +39,7 @@ const EventStart = () => {
       setError("");
 
       const res = await axios.post(
-        "http://localhost:5000/api/events/trigger-otp",
+        "https://zappy-vendor-tracker.onrender.com/api/events/trigger-otp",
         { eventId },
         {
           headers: {
@@ -81,7 +81,7 @@ const EventStart = () => {
       setError("");
 
       await axios.post(
-        "http://localhost:5000/api/events/verify-otp",
+        "https://zappy-vendor-tracker.onrender.com/api/events/verify-otp",
         {
           eventId,
           otp

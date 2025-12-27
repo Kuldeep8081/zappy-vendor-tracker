@@ -43,7 +43,7 @@ const CheckIn = () => {
           formData.append("longitude", pos.coords.longitude.toString());
 
           const res = await axios.post(
-            "http://localhost:5000/api/events/check-in",
+            "https://zappy-vendor-tracker.onrender.com/api/events/check-in",
             formData,
             {
               headers: {

@@ -41,7 +41,7 @@ const EventClose = () => {
       setError("");
 
       const res = await axios.post(
-        "http://localhost:5000/api/events/trigger-final-otp",
+        "https://zappy-vendor-tracker.onrender.com/api/events/trigger-final-otp",
         { eventId },
         {
           headers: {
@@ -83,7 +83,7 @@ const EventClose = () => {
       setError("");
 
       await axios.post(
-        "http://localhost:5000/api/events/close-event",
+        "https://zappy-vendor-tracker.onrender.com/api/events/close-event",
         {
           eventId,
           otp
