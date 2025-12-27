@@ -1,11 +1,13 @@
 import { Routes, Route, Navigate } from "react-router-dom";
+
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import CheckIn from "../pages/CheckIn";
-import ProtectedRoute from "../utils/ProtectedRoute";
 import EventStart from "../pages/EventStart";
 import Setup from "../pages/Setup";
 import EventClose from "../pages/EventClose";
+
+import ProtectedRoute from "../utils/ProtectedRoute";
 
 const AppRoutes = () => {
   return (

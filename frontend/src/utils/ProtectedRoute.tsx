@@ -1,6 +1,6 @@
+import type { ReactNode } from "react";
 import { Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
